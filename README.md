@@ -1,10 +1,10 @@
 # My Personal Website
 This is a simple personal website created using HTML and CSS. The project includes the following sections:
 
-  -[ ] navigation bar
+  -[x] navigation bar
   
-  -[ ] header
+  -[x] header
 
-  -[ ] sections
+  -[x] sections
 
-  -[ ] footer
+  -[x] footer
