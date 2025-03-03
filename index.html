@@ -3,55 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+    <title>Edwin Kipyego - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
+    <!-- Navigation Bar -->
     <nav>
-        <a href="/home/">Home</a> 
-        <a href="/about/">About</a> 
-        <a href="/project/">Project</a> 
-        <a href="/contact/">Contact</a>
-        </nav>
-        
-    <header>
-        <h1>Edwin Kipyego</h1>
-        <h2>Aspiring Software Developer</h2>
-        <p class="sub-title">web developer</p>
-        <p class="Bio">passionate Software developer focused on frontend and backend development</p>
-    </header>
-    <section class="skills">
-        <h2>My skills</h2>
-        <div class="skills-container">
-        <ul class="my-skills-list">
-            <li>Web development</li>
-            <li>Time managent</li>
-            <li>Project management</li>
-            <li>webdesign</li>
-            <li>Creative Thinking</li>
-            <li>version control</li>
-
+        <div class="logo">Edwin Kipyego</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-        <img src="assets/portfolio image.jpeg" alt="My portfolio image" width="300px">
-        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <header id="home">
+        <img src="assets/portfolio image.jpeg" alt="Profile Image">
+        <h1>Hi, I'm Edwin Kipyego</h1>
+        <h2>Aspiring Software Developer</h2>
+        <a href="#contact" class="btn">Contact Me</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate in software developement and i just completed my phase 0 at Moringa school. <br>When I'm not coding, you’ll find me watching action movies, enjoying football matches—especially Barcelona and Chelsea games—playing pool, darts, or on the field playing football. <br>I thrive on problem-solving and creativity, always looking for new ways to improve my skills and build innovative projects.</p>
     </section>
-    <section class="project">
-        <h2>My project</h2>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <ul>
+                <li>Web Development</li>
+                <li>JavaScript & Python</li>
+                <li>Project Management</li>
+                <li>Creative Thinking</li>
+                <li>Git & Version Control</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
         <div class="project">
-            
-                <h3>Portfolio Website Built with HTML and CSS</h3>
-                <p>My first web development project a personal portfolio website designed to showcase my skills, projects and background as a developer. <br>the goal is to create an online profile where i can highlight my work and connect with potential clients or employers.</p>
-            
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive portfolio website built using HTML and CSS to showcase my skills and projects.</p>
         </div>
-
-
     </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:koriredwin95@gmail.com">koriredwin95@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/Edwin-kipyego" target="_blank">Edwin-kipyego</a></p>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <h2>contacts</h2>
-        <p>&copy;Edwin |<a href="mailto:koriredwin95@gmail.com">koriredwin95@gmail.com</a></p>
-        <p> &copy;|github<a href="https://github.com/Edwin-kipyego">Github:Edwin-kipyego</a></p>
+        <p>&copy; 2025 Edwin Kipyego | All Rights Reserved</p>
     </footer>
 </body>
 </html>
